@@ -1,0 +1,364 @@
+使用设备: mps
+细胞膜比例 0.218，wc = {0: 0.639, 1: 2.294}
+正在计算权重图……
+验证集编号: [19, 27, 5, 24, 3]
+优化器: sgd
+lr = 0.001, momentum = 0.99, batch_size = 1, dropout = 0.5
+epoch 1/300  train_loss = 0.6797  val_loss = 0.8234  val_acc = 0.2281  P = 0.2280  R = 1.0000  F1 = 0.3713  用时 6.0 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 2/300  train_loss = 0.5610  val_loss = 0.7260  val_acc = 0.4059  P = 0.2764  R = 0.9931  F1 = 0.4325  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 3/300  train_loss = 0.4360  val_loss = 0.3456  val_acc = 0.8443  P = 0.7227  R = 0.5139  F1 = 0.6007  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 4/300  train_loss = 0.4482  val_loss = 0.5163  val_acc = 0.7705  P = 0.4979  R = 0.8508  F1 = 0.6282  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 5/300  train_loss = 0.4094  val_loss = 0.3580  val_acc = 0.8396  P = 0.6351  R = 0.6961  F1 = 0.6642  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 6/300  train_loss = 0.3814  val_loss = 0.5393  val_acc = 0.7601  P = 0.4858  R = 0.9034  F1 = 0.6319  用时 5.7 秒
+epoch 7/300  train_loss = 0.4434  val_loss = 0.4824  val_acc = 0.7911  P = 0.5248  R = 0.8802  F1 = 0.6576  用时 5.7 秒
+epoch 8/300  train_loss = 0.4283  val_loss = 0.7883  val_acc = 0.6009  P = 0.3606  R = 0.9713  F1 = 0.5260  用时 5.7 秒
+epoch 9/300  train_loss = 0.4035  val_loss = 0.5887  val_acc = 0.7323  P = 0.4570  R = 0.9279  F1 = 0.6124  用时 5.7 秒
+epoch 10/300  train_loss = 0.3805  val_loss = 0.3512  val_acc = 0.8459  P = 0.6471  R = 0.7122  F1 = 0.6781  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 11/300  train_loss = 0.3934  val_loss = 0.3658  val_acc = 0.8414  P = 0.6296  R = 0.7388  F1 = 0.6799  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 12/300  train_loss = 0.3922  val_loss = 0.3721  val_acc = 0.8356  P = 0.6088  R = 0.7794  F1 = 0.6837  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 13/300  train_loss = 0.3936  val_loss = 0.4750  val_acc = 0.7788  P = 0.5083  R = 0.9011  F1 = 0.6500  用时 5.7 秒
+epoch 14/300  train_loss = 0.3675  val_loss = 0.5747  val_acc = 0.7335  P = 0.4584  R = 0.9322  F1 = 0.6146  用时 5.7 秒
+epoch 15/300  train_loss = 0.3619  val_loss = 0.5359  val_acc = 0.7318  P = 0.4573  R = 0.9466  F1 = 0.6167  用时 5.7 秒
+epoch 16/300  train_loss = 0.3654  val_loss = 0.3538  val_acc = 0.8244  P = 0.5785  R = 0.8449  F1 = 0.6868  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 17/300  train_loss = 0.3745  val_loss = 0.5643  val_acc = 0.7233  P = 0.4497  R = 0.9575  F1 = 0.6120  用时 5.7 秒
+epoch 18/300  train_loss = 0.3504  val_loss = 0.4083  val_acc = 0.7970  P = 0.5325  R = 0.8957  F1 = 0.6679  用时 5.7 秒
+epoch 19/300  train_loss = 0.3485  val_loss = 0.4636  val_acc = 0.7747  P = 0.5032  R = 0.9227  F1 = 0.6512  用时 5.7 秒
+epoch 20/300  train_loss = 0.3471  val_loss = 0.4969  val_acc = 0.7480  P = 0.4735  R = 0.9448  F1 = 0.6309  用时 5.7 秒
+epoch 21/300  train_loss = 0.3453  val_loss = 0.4255  val_acc = 0.7870  P = 0.5184  R = 0.9231  F1 = 0.6639  用时 5.7 秒
+epoch 22/300  train_loss = 0.3420  val_loss = 0.5116  val_acc = 0.7482  P = 0.4737  R = 0.9447  F1 = 0.6310  用时 5.7 秒
+epoch 23/300  train_loss = 0.3532  val_loss = 0.4128  val_acc = 0.7764  P = 0.5052  R = 0.9225  F1 = 0.6528  用时 5.7 秒
+epoch 24/300  train_loss = 0.3397  val_loss = 0.5038  val_acc = 0.7787  P = 0.5080  R = 0.9207  F1 = 0.6547  用时 5.7 秒
+epoch 25/300  train_loss = 0.3373  val_loss = 0.3944  val_acc = 0.7941  P = 0.5281  R = 0.9106  F1 = 0.6685  用时 5.7 秒
+epoch 26/300  train_loss = 0.3344  val_loss = 0.5066  val_acc = 0.7501  P = 0.4760  R = 0.9536  F1 = 0.6350  用时 5.7 秒
+epoch 27/300  train_loss = 0.3364  val_loss = 0.3858  val_acc = 0.8130  P = 0.5551  R = 0.9055  F1 = 0.6883  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 28/300  train_loss = 0.3296  val_loss = 0.5000  val_acc = 0.7264  P = 0.4529  R = 0.9636  F1 = 0.6162  用时 5.7 秒
+epoch 29/300  train_loss = 0.3301  val_loss = 0.3815  val_acc = 0.8017  P = 0.5386  R = 0.9067  F1 = 0.6758  用时 5.7 秒
+epoch 30/300  train_loss = 0.3275  val_loss = 0.4889  val_acc = 0.7464  P = 0.4721  R = 0.9522  F1 = 0.6312  用时 5.7 秒
+epoch 31/300  train_loss = 0.3238  val_loss = 0.3711  val_acc = 0.7971  P = 0.5316  R = 0.9213  F1 = 0.6742  用时 5.7 秒
+epoch 32/300  train_loss = 0.3199  val_loss = 0.4387  val_acc = 0.7813  P = 0.5110  R = 0.9409  F1 = 0.6623  用时 5.7 秒
+epoch 33/300  train_loss = 0.3191  val_loss = 0.3808  val_acc = 0.7995  P = 0.5347  R = 0.9267  F1 = 0.6781  用时 5.7 秒
+epoch 34/300  train_loss = 0.3162  val_loss = 0.4497  val_acc = 0.7647  P = 0.4916  R = 0.9482  F1 = 0.6475  用时 5.7 秒
+epoch 35/300  train_loss = 0.3125  val_loss = 0.3702  val_acc = 0.8090  P = 0.5491  R = 0.9059  F1 = 0.6837  用时 5.7 秒
+epoch 36/300  train_loss = 0.3113  val_loss = 0.4204  val_acc = 0.7798  P = 0.5093  R = 0.9369  F1 = 0.6599  用时 5.7 秒
+epoch 37/300  train_loss = 0.3054  val_loss = 0.3706  val_acc = 0.8035  P = 0.5401  R = 0.9272  F1 = 0.6826  用时 5.7 秒
+epoch 38/300  train_loss = 0.3078  val_loss = 0.3952  val_acc = 0.7995  P = 0.5343  R = 0.9368  F1 = 0.6805  用时 5.7 秒
+epoch 39/300  train_loss = 0.3049  val_loss = 0.3435  val_acc = 0.8206  P = 0.5662  R = 0.9109  F1 = 0.6983  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 40/300  train_loss = 0.3058  val_loss = 0.3820  val_acc = 0.7987  P = 0.5336  R = 0.9282  F1 = 0.6777  用时 5.7 秒
+epoch 41/300  train_loss = 0.2983  val_loss = 0.3524  val_acc = 0.8175  P = 0.5610  R = 0.9165  F1 = 0.6960  用时 5.7 秒
+epoch 42/300  train_loss = 0.3029  val_loss = 0.3434  val_acc = 0.8247  P = 0.5726  R = 0.9114  F1 = 0.7033  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 43/300  train_loss = 0.3031  val_loss = 0.3691  val_acc = 0.8088  P = 0.5478  R = 0.9225  F1 = 0.6874  用时 5.7 秒
+epoch 44/300  train_loss = 0.2984  val_loss = 0.3262  val_acc = 0.8373  P = 0.5948  R = 0.8980  F1 = 0.7156  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 45/300  train_loss = 0.2965  val_loss = 0.3418  val_acc = 0.8281  P = 0.5787  R = 0.9041  F1 = 0.7057  用时 5.7 秒
+epoch 46/300  train_loss = 0.2976  val_loss = 0.3808  val_acc = 0.8122  P = 0.5525  R = 0.9281  F1 = 0.6926  用时 5.7 秒
+epoch 47/300  train_loss = 0.2942  val_loss = 0.3450  val_acc = 0.8280  P = 0.5779  R = 0.9094  F1 = 0.7067  用时 5.7 秒
+epoch 48/300  train_loss = 0.2969  val_loss = 0.3094  val_acc = 0.8473  P = 0.6149  R = 0.8834  F1 = 0.7251  用时 5.8 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 49/300  train_loss = 0.2941  val_loss = 0.3211  val_acc = 0.8398  P = 0.5990  R = 0.8989  F1 = 0.7189  用时 5.8 秒
+epoch 50/300  train_loss = 0.2984  val_loss = 0.4034  val_acc = 0.8052  P = 0.5420  R = 0.9385  F1 = 0.6871  用时 5.7 秒
+epoch 51/300  train_loss = 0.2967  val_loss = 0.3240  val_acc = 0.8396  P = 0.5997  R = 0.8909  F1 = 0.7169  用时 5.7 秒
+epoch 52/300  train_loss = 0.2980  val_loss = 0.2897  val_acc = 0.8569  P = 0.6370  R = 0.8650  F1 = 0.7337  用时 5.8 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 53/300  train_loss = 0.2999  val_loss = 0.3708  val_acc = 0.8086  P = 0.5470  R = 0.9337  F1 = 0.6899  用时 5.7 秒
+epoch 54/300  train_loss = 0.2888  val_loss = 0.3318  val_acc = 0.8349  P = 0.5887  R = 0.9147  F1 = 0.7164  用时 5.7 秒
+epoch 55/300  train_loss = 0.2895  val_loss = 0.3398  val_acc = 0.8323  P = 0.5839  R = 0.9194  F1 = 0.7142  用时 5.7 秒
+epoch 56/300  train_loss = 0.2891  val_loss = 0.3150  val_acc = 0.8490  P = 0.6182  R = 0.8828  F1 = 0.7272  用时 5.7 秒
+epoch 57/300  train_loss = 0.2859  val_loss = 0.3058  val_acc = 0.8560  P = 0.6298  R = 0.8931  F1 = 0.7387  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 58/300  train_loss = 0.2840  val_loss = 0.2882  val_acc = 0.8669  P = 0.6589  R = 0.8624  F1 = 0.7470  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 59/300  train_loss = 0.2826  val_loss = 0.3044  val_acc = 0.8562  P = 0.6317  R = 0.8849  F1 = 0.7371  用时 5.7 秒
+epoch 60/300  train_loss = 0.2857  val_loss = 0.3129  val_acc = 0.8534  P = 0.6246  R = 0.8947  F1 = 0.7357  用时 5.7 秒
+epoch 61/300  train_loss = 0.2907  val_loss = 0.3056  val_acc = 0.8559  P = 0.6306  R = 0.8883  F1 = 0.7376  用时 5.7 秒
+epoch 62/300  train_loss = 0.2861  val_loss = 0.3282  val_acc = 0.8395  P = 0.5963  R = 0.9163  F1 = 0.7224  用时 5.7 秒
+epoch 63/300  train_loss = 0.2919  val_loss = 0.3385  val_acc = 0.8357  P = 0.5883  R = 0.9296  F1 = 0.7206  用时 5.7 秒
+epoch 64/300  train_loss = 0.2821  val_loss = 0.3285  val_acc = 0.8415  P = 0.5991  R = 0.9202  F1 = 0.7257  用时 5.7 秒
+epoch 65/300  train_loss = 0.2805  val_loss = 0.2856  val_acc = 0.8658  P = 0.6513  R = 0.8853  F1 = 0.7505  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 66/300  train_loss = 0.2870  val_loss = 0.3124  val_acc = 0.8496  P = 0.6144  R = 0.9134  F1 = 0.7346  用时 5.7 秒
+epoch 67/300  train_loss = 0.2836  val_loss = 0.3241  val_acc = 0.8484  P = 0.6142  R = 0.9009  F1 = 0.7304  用时 5.7 秒
+epoch 68/300  train_loss = 0.2740  val_loss = 0.2788  val_acc = 0.8734  P = 0.6714  R = 0.8710  F1 = 0.7583  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 69/300  train_loss = 0.2799  val_loss = 0.2818  val_acc = 0.8726  P = 0.6708  R = 0.8658  F1 = 0.7559  用时 5.7 秒
+epoch 70/300  train_loss = 0.2735  val_loss = 0.2739  val_acc = 0.8773  P = 0.6853  R = 0.8537  F1 = 0.7603  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 71/300  train_loss = 0.2690  val_loss = 0.2724  val_acc = 0.8765  P = 0.6776  R = 0.8738  F1 = 0.7633  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 72/300  train_loss = 0.2710  val_loss = 0.2643  val_acc = 0.8801  P = 0.6960  R = 0.8414  F1 = 0.7618  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+epoch 73/300  train_loss = 0.2698  val_loss = 0.2758  val_acc = 0.8728  P = 0.6671  R = 0.8818  F1 = 0.7596  用时 5.7 秒
+epoch 74/300  train_loss = 0.2774  val_loss = 0.2915  val_acc = 0.8632  P = 0.6407  R = 0.9103  F1 = 0.7521  用时 5.7 秒
+epoch 75/300  train_loss = 0.2792  val_loss = 0.3017  val_acc = 0.8575  P = 0.6301  R = 0.9073  F1 = 0.7437  用时 5.7 秒
+epoch 76/300  train_loss = 0.2724  val_loss = 0.3021  val_acc = 0.8600  P = 0.6345  R = 0.9102  F1 = 0.7477  用时 5.7 秒
+epoch 77/300  train_loss = 0.2723  val_loss = 0.2838  val_acc = 0.8700  P = 0.6593  R = 0.8897  F1 = 0.7573  用时 5.7 秒
+epoch 78/300  train_loss = 0.2810  val_loss = 0.2597  val_acc = 0.8817  P = 0.7035  R = 0.8311  F1 = 0.7620  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+epoch 79/300  train_loss = 0.2728  val_loss = 0.2579  val_acc = 0.8831  P = 0.7039  R = 0.8403  F1 = 0.7661  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 80/300  train_loss = 0.2689  val_loss = 0.2799  val_acc = 0.8732  P = 0.6653  R = 0.8928  F1 = 0.7624  用时 5.8 秒
+epoch 81/300  train_loss = 0.2710  val_loss = 0.2809  val_acc = 0.8722  P = 0.6633  R = 0.8926  F1 = 0.7610  用时 5.7 秒
+epoch 82/300  train_loss = 0.2725  val_loss = 0.2816  val_acc = 0.8710  P = 0.6600  R = 0.8952  F1 = 0.7598  用时 5.7 秒
+epoch 83/300  train_loss = 0.2668  val_loss = 0.2581  val_acc = 0.8832  P = 0.7007  R = 0.8510  F1 = 0.7686  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 84/300  train_loss = 0.2663  val_loss = 0.2655  val_acc = 0.8822  P = 0.7133  R = 0.8080  F1 = 0.7577  用时 5.7 秒
+epoch 85/300  train_loss = 0.2696  val_loss = 0.2576  val_acc = 0.8840  P = 0.7008  R = 0.8571  F1 = 0.7711  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 86/300  train_loss = 0.2661  val_loss = 0.2522  val_acc = 0.8861  P = 0.7032  R = 0.8655  F1 = 0.7759  用时 5.8 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 87/300  train_loss = 0.2584  val_loss = 0.2581  val_acc = 0.8849  P = 0.7160  R = 0.8209  F1 = 0.7648  用时 5.7 秒
+epoch 88/300  train_loss = 0.2667  val_loss = 0.2552  val_acc = 0.8849  P = 0.7092  R = 0.8393  F1 = 0.7687  用时 5.7 秒
+epoch 89/300  train_loss = 0.2631  val_loss = 0.2485  val_acc = 0.8873  P = 0.7078  R = 0.8614  F1 = 0.7771  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 90/300  train_loss = 0.2580  val_loss = 0.2559  val_acc = 0.8855  P = 0.7142  R = 0.8295  F1 = 0.7675  用时 5.7 秒
+epoch 91/300  train_loss = 0.2674  val_loss = 0.2687  val_acc = 0.8798  P = 0.6899  R = 0.8584  F1 = 0.7650  用时 5.7 秒
+epoch 92/300  train_loss = 0.2607  val_loss = 0.2633  val_acc = 0.8794  P = 0.6784  R = 0.8952  F1 = 0.7718  用时 5.7 秒
+epoch 93/300  train_loss = 0.2610  val_loss = 0.2468  val_acc = 0.8895  P = 0.7276  R = 0.8235  F1 = 0.7726  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+epoch 94/300  train_loss = 0.2556  val_loss = 0.2516  val_acc = 0.8899  P = 0.7442  R = 0.7875  F1 = 0.7652  用时 5.7 秒
+epoch 95/300  train_loss = 0.2549  val_loss = 0.2449  val_acc = 0.8911  P = 0.7477  R = 0.7883  F1 = 0.7675  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+epoch 96/300  train_loss = 0.2616  val_loss = 0.2515  val_acc = 0.8865  P = 0.7235  R = 0.8128  F1 = 0.7656  用时 5.7 秒
+epoch 97/300  train_loss = 0.2638  val_loss = 0.2800  val_acc = 0.8737  P = 0.6730  R = 0.8673  F1 = 0.7579  用时 5.7 秒
+epoch 98/300  train_loss = 0.2621  val_loss = 0.3121  val_acc = 0.8598  P = 0.6310  R = 0.9269  F1 = 0.7508  用时 5.7 秒
+epoch 99/300  train_loss = 0.2678  val_loss = 0.2714  val_acc = 0.8756  P = 0.6688  R = 0.9001  F1 = 0.7674  用时 5.7 秒
+epoch 100/300  train_loss = 0.2669  val_loss = 0.2564  val_acc = 0.8861  P = 0.7347  R = 0.7832  F1 = 0.7581  用时 5.7 秒
+epoch 101/300  train_loss = 0.2635  val_loss = 0.2640  val_acc = 0.8840  P = 0.6912  R = 0.8877  F1 = 0.7772  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 102/300  train_loss = 0.2653  val_loss = 0.2756  val_acc = 0.8786  P = 0.6760  R = 0.8974  F1 = 0.7711  用时 5.7 秒
+epoch 103/300  train_loss = 0.2671  val_loss = 0.2653  val_acc = 0.8834  P = 0.7066  R = 0.8350  F1 = 0.7654  用时 5.7 秒
+epoch 104/300  train_loss = 0.2663  val_loss = 0.2401  val_acc = 0.8934  P = 0.7319  R = 0.8399  F1 = 0.7822  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 105/300  train_loss = 0.2715  val_loss = 0.2598  val_acc = 0.8834  P = 0.6995  R = 0.8560  F1 = 0.7699  用时 5.7 秒
+epoch 106/300  train_loss = 0.2618  val_loss = 0.3303  val_acc = 0.8471  P = 0.6057  R = 0.9433  F1 = 0.7377  用时 5.7 秒
+epoch 107/300  train_loss = 0.2689  val_loss = 0.2372  val_acc = 0.8936  P = 0.7299  R = 0.8464  F1 = 0.7838  用时 5.8 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 108/300  train_loss = 0.2549  val_loss = 0.2757  val_acc = 0.8771  P = 0.6817  R = 0.8641  F1 = 0.7621  用时 5.7 秒
+epoch 109/300  train_loss = 0.2615  val_loss = 0.2610  val_acc = 0.8833  P = 0.6950  R = 0.8696  F1 = 0.7726  用时 5.7 秒
+epoch 110/300  train_loss = 0.2545  val_loss = 0.2582  val_acc = 0.8851  P = 0.6914  R = 0.8959  F1 = 0.7805  用时 5.7 秒
+epoch 111/300  train_loss = 0.2573  val_loss = 0.2538  val_acc = 0.8878  P = 0.7113  R = 0.8546  F1 = 0.7764  用时 5.7 秒
+epoch 112/300  train_loss = 0.2526  val_loss = 0.2584  val_acc = 0.8861  P = 0.7302  R = 0.7938  F1 = 0.7607  用时 5.7 秒
+epoch 113/300  train_loss = 0.2571  val_loss = 0.2644  val_acc = 0.8796  P = 0.6886  R = 0.8612  F1 = 0.7653  用时 5.7 秒
+epoch 114/300  train_loss = 0.2560  val_loss = 0.2831  val_acc = 0.8705  P = 0.6544  R = 0.9147  F1 = 0.7630  用时 5.7 秒
+epoch 115/300  train_loss = 0.2498  val_loss = 0.2533  val_acc = 0.8876  P = 0.7177  R = 0.8353  F1 = 0.7720  用时 5.7 秒
+epoch 116/300  train_loss = 0.2525  val_loss = 0.2627  val_acc = 0.8825  P = 0.6854  R = 0.8952  F1 = 0.7764  用时 5.7 秒
+epoch 117/300  train_loss = 0.2529  val_loss = 0.2710  val_acc = 0.8779  P = 0.6713  R = 0.9093  F1 = 0.7724  用时 5.7 秒
+epoch 118/300  train_loss = 0.2578  val_loss = 0.2549  val_acc = 0.8868  P = 0.7185  R = 0.8277  F1 = 0.7692  用时 5.7 秒
+epoch 119/300  train_loss = 0.2535  val_loss = 0.2471  val_acc = 0.8898  P = 0.7118  R = 0.8677  F1 = 0.7821  用时 5.7 秒
+epoch 120/300  train_loss = 0.2482  val_loss = 0.2825  val_acc = 0.8741  P = 0.6619  R = 0.9148  F1 = 0.7681  用时 5.7 秒
+epoch 121/300  train_loss = 0.2521  val_loss = 0.2631  val_acc = 0.8846  P = 0.7175  R = 0.8145  F1 = 0.7629  用时 5.7 秒
+epoch 122/300  train_loss = 0.2498  val_loss = 0.2390  val_acc = 0.8926  P = 0.7101  R = 0.8940  F1 = 0.7915  用时 5.7 秒
+  ✓ 保存了 F1 最好的模型
+epoch 123/300  train_loss = 0.2523  val_loss = 0.2747  val_acc = 0.8800  P = 0.6786  R = 0.8999  F1 = 0.7737  用时 5.7 秒
+epoch 124/300  train_loss = 0.2519  val_loss = 0.2807  val_acc = 0.8789  P = 0.7060  R = 0.8028  F1 = 0.7513  用时 5.7 秒
+epoch 125/300  train_loss = 0.2560  val_loss = 0.2519  val_acc = 0.8862  P = 0.6994  R = 0.8784  F1 = 0.7788  用时 5.7 秒
+epoch 126/300  train_loss = 0.2556  val_loss = 0.2813  val_acc = 0.8719  P = 0.6530  R = 0.9341  F1 = 0.7687  用时 5.7 秒
+epoch 127/300  train_loss = 0.2577  val_loss = 0.2530  val_acc = 0.8871  P = 0.7097  R = 0.8541  F1 = 0.7752  用时 5.7 秒
+epoch 128/300  train_loss = 0.2536  val_loss = 0.2759  val_acc = 0.8759  P = 0.6799  R = 0.8603  F1 = 0.7596  用时 5.7 秒
+epoch 129/300  train_loss = 0.2555  val_loss = 0.2765  val_acc = 0.8723  P = 0.6573  R = 0.9186  F1 = 0.7663  用时 5.7 秒
+epoch 130/300  train_loss = 0.2544  val_loss = 0.2686  val_acc = 0.8790  P = 0.6818  R = 0.8796  F1 = 0.7682  用时 5.7 秒
+epoch 131/300  train_loss = 0.2519  val_loss = 0.2747  val_acc = 0.8802  P = 0.6901  R = 0.8610  F1 = 0.7661  用时 5.7 秒
+epoch 132/300  train_loss = 0.2495  val_loss = 0.2425  val_acc = 0.8951  P = 0.7413  R = 0.8288  F1 = 0.7826  用时 5.7 秒
+epoch 133/300  train_loss = 0.2564  val_loss = 0.2674  val_acc = 0.8797  P = 0.6788  R = 0.8962  F1 = 0.7725  用时 5.7 秒
+epoch 134/300  train_loss = 0.2492  val_loss = 0.2559  val_acc = 0.8847  P = 0.7000  R = 0.8649  F1 = 0.7737  用时 5.7 秒
+epoch 135/300  train_loss = 0.2456  val_loss = 0.2536  val_acc = 0.8867  P = 0.7140  R = 0.8392  F1 = 0.7716  用时 5.7 秒
+epoch 136/300  train_loss = 0.2479  val_loss = 0.2882  val_acc = 0.8702  P = 0.6520  R = 0.9230  F1 = 0.7642  用时 5.7 秒
+epoch 137/300  train_loss = 0.2500  val_loss = 0.2502  val_acc = 0.8867  P = 0.7106  R = 0.8485  F1 = 0.7734  用时 5.7 秒
+epoch 138/300  train_loss = 0.2448  val_loss = 0.2572  val_acc = 0.8842  P = 0.6932  R = 0.8825  F1 = 0.7765  用时 5.7 秒
+epoch 139/300  train_loss = 0.2423  val_loss = 0.2600  val_acc = 0.8866  P = 0.7101  R = 0.8494  F1 = 0.7735  用时 5.7 秒
+epoch 140/300  train_loss = 0.2403  val_loss = 0.2532  val_acc = 0.8888  P = 0.7128  R = 0.8581  F1 = 0.7787  用时 5.7 秒
+epoch 141/300  train_loss = 0.2431  val_loss = 0.2483  val_acc = 0.8876  P = 0.6979  R = 0.8938  F1 = 0.7838  用时 5.7 秒
+epoch 142/300  train_loss = 0.2470  val_loss = 0.2550  val_acc = 0.8859  P = 0.7015  R = 0.8694  F1 = 0.7765  用时 5.7 秒
+epoch 143/300  train_loss = 0.2399  val_loss = 0.2605  val_acc = 0.8898  P = 0.7319  R = 0.8154  F1 = 0.7714  用时 5.7 秒
+epoch 144/300  train_loss = 0.2430  val_loss = 0.2471  val_acc = 0.8893  P = 0.6985  R = 0.9044  F1 = 0.7883  用时 5.7 秒
+epoch 145/300  train_loss = 0.2472  val_loss = 0.2555  val_acc = 0.8843  P = 0.6923  R = 0.8866  F1 = 0.7775  用时 5.7 秒
+epoch 146/300  train_loss = 0.2420  val_loss = 0.2729  val_acc = 0.8775  P = 0.6794  R = 0.8761  F1 = 0.7653  用时 5.7 秒
+epoch 147/300  train_loss = 0.2429  val_loss = 0.2546  val_acc = 0.8906  P = 0.7218  R = 0.8460  F1 = 0.7790  用时 5.7 秒
+epoch 148/300  train_loss = 0.2449  val_loss = 0.2356  val_acc = 0.8960  P = 0.7355  R = 0.8490  F1 = 0.7882  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+epoch 149/300  train_loss = 0.2462  val_loss = 0.2812  val_acc = 0.8740  P = 0.6695  R = 0.8832  F1 = 0.7616  用时 5.7 秒
+epoch 150/300  train_loss = 0.2412  val_loss = 0.2550  val_acc = 0.8852  P = 0.6880  R = 0.9079  F1 = 0.7828  用时 5.7 秒
+epoch 151/300  train_loss = 0.2464  val_loss = 0.2335  val_acc = 0.8972  P = 0.7223  R = 0.8918  F1 = 0.7982  用时 5.7 秒
+  ✓ 保存了新的最佳模型
+  ✓ 保存了 F1 最好的模型
+epoch 152/300  train_loss = 0.2446  val_loss = 0.2440  val_acc = 0.8921  P = 0.7187  R = 0.8652  F1 = 0.7852  用时 5.7 秒
+epoch 153/300  train_loss = 0.2428  val_loss = 0.2694  val_acc = 0.8802  P = 0.6909  R = 0.8588  F1 = 0.7658  用时 5.8 秒
+epoch 154/300  train_loss = 0.2416  val_loss = 0.2507  val_acc = 0.8872  P = 0.6970  R = 0.8937  F1 = 0.7831  用时 5.7 秒
+epoch 155/300  train_loss = 0.2406  val_loss = 0.2452  val_acc = 0.8946  P = 0.7334  R = 0.8447  F1 = 0.7851  用时 5.7 秒
+epoch 156/300  train_loss = 0.2462  val_loss = 0.2663  val_acc = 0.8817  P = 0.6881  R = 0.8801  F1 = 0.7723  用时 5.7 秒
+epoch 157/300  train_loss = 0.2367  val_loss = 0.2674  val_acc = 0.8792  P = 0.6776  R = 0.8962  F1 = 0.7717  用时 5.7 秒
+epoch 158/300  train_loss = 0.2400  val_loss = 0.2418  val_acc = 0.8920  P = 0.7167  R = 0.8702  F1 = 0.7861  用时 5.7 秒
+epoch 159/300  train_loss = 0.2422  val_loss = 0.2405  val_acc = 0.8950  P = 0.7352  R = 0.8429  F1 = 0.7854  用时 5.7 秒
+epoch 160/300  train_loss = 0.2439  val_loss = 0.2555  val_acc = 0.8864  P = 0.7043  R = 0.8642  F1 = 0.7761  用时 5.7 秒
+epoch 161/300  train_loss = 0.2397  val_loss = 0.2701  val_acc = 0.8769  P = 0.6719  R = 0.8987  F1 = 0.7689  用时 5.7 秒
+epoch 162/300  train_loss = 0.2435  val_loss = 0.2628  val_acc = 0.8846  P = 0.7017  R = 0.8588  F1 = 0.7723  用时 5.7 秒
+epoch 163/300  train_loss = 0.2423  val_loss = 0.2438  val_acc = 0.8926  P = 0.7207  R = 0.8631  F1 = 0.7855  用时 5.7 秒
+epoch 164/300  train_loss = 0.2390  val_loss = 0.2537  val_acc = 0.8894  P = 0.7164  R = 0.8519  F1 = 0.7783  用时 5.7 秒
+epoch 165/300  train_loss = 0.2429  val_loss = 0.2658  val_acc = 0.8841  P = 0.7021  R = 0.8536  F1 = 0.7705  用时 5.7 秒
+epoch 166/300  train_loss = 0.2442  val_loss = 0.2725  val_acc = 0.8759  P = 0.6643  R = 0.9205  F1 = 0.7717  用时 5.7 秒
+epoch 167/300  train_loss = 0.2399  val_loss = 0.2525  val_acc = 0.8891  P = 0.7219  R = 0.8353  F1 = 0.7745  用时 5.7 秒
+epoch 168/300  train_loss = 0.2406  val_loss = 0.2555  val_acc = 0.8863  P = 0.6949  R = 0.8935  F1 = 0.7818  用时 5.7 秒
+epoch 169/300  train_loss = 0.2321  val_loss = 0.2390  val_acc = 0.8938  P = 0.7270  R = 0.8553  F1 = 0.7859  用时 5.7 秒
+epoch 170/300  train_loss = 0.2404  val_loss = 0.2630  val_acc = 0.8825  P = 0.6873  R = 0.8890  F1 = 0.7752  用时 5.7 秒
+epoch 171/300  train_loss = 0.2374  val_loss = 0.2651  val_acc = 0.8798  P = 0.6745  R = 0.9134  F1 = 0.7760  用时 5.7 秒
+epoch 172/300  train_loss = 0.2384  val_loss = 0.2428  val_acc = 0.8919  P = 0.7173  R = 0.8681  F1 = 0.7855  用时 5.7 秒
+epoch 173/300  train_loss = 0.2392  val_loss = 0.2679  val_acc = 0.8879  P = 0.7206  R = 0.8299  F1 = 0.7714  用时 5.7 秒
+epoch 174/300  train_loss = 0.2388  val_loss = 0.2466  val_acc = 0.8891  P = 0.6969  R = 0.9085  F1 = 0.7888  用时 5.7 秒
+epoch 175/300  train_loss = 0.2392  val_loss = 0.2527  val_acc = 0.8885  P = 0.7063  R = 0.8743  F1 = 0.7813  用时 5.7 秒
+epoch 176/300  train_loss = 0.2408  val_loss = 0.2724  val_acc = 0.8801  P = 0.6832  R = 0.8840  F1 = 0.7707  用时 5.7 秒
+epoch 177/300  train_loss = 0.2381  val_loss = 0.2485  val_acc = 0.8899  P = 0.7175  R = 0.8529  F1 = 0.7794  用时 5.7 秒
+epoch 178/300  train_loss = 0.2342  val_loss = 0.2460  val_acc = 0.8891  P = 0.7022  R = 0.8920  F1 = 0.7858  用时 5.7 秒
+epoch 179/300  train_loss = 0.2368  val_loss = 0.2617  val_acc = 0.8824  P = 0.6825  R = 0.9051  F1 = 0.7782  用时 5.7 秒
+epoch 180/300  train_loss = 0.2399  val_loss = 0.2604  val_acc = 0.8873  P = 0.7139  R = 0.8435  F1 = 0.7733  用时 5.7 秒
+epoch 181/300  train_loss = 0.2388  val_loss = 0.2419  val_acc = 0.8933  P = 0.7216  R = 0.8658  F1 = 0.7871  用时 5.7 秒
+epoch 182/300  train_loss = 0.2405  val_loss = 0.2579  val_acc = 0.8830  P = 0.6813  R = 0.9148  F1 = 0.7810  用时 5.7 秒
+epoch 183/300  train_loss = 0.2390  val_loss = 0.2696  val_acc = 0.8821  P = 0.6952  R = 0.8598  F1 = 0.7688  用时 5.7 秒
+epoch 184/300  train_loss = 0.2394  val_loss = 0.2592  val_acc = 0.8887  P = 0.7186  R = 0.8408  F1 = 0.7749  用时 5.7 秒
+epoch 185/300  train_loss = 0.2369  val_loss = 0.2541  val_acc = 0.8859  P = 0.6912  R = 0.9029  F1 = 0.7830  用时 5.7 秒
+epoch 186/300  train_loss = 0.2360  val_loss = 0.2556  val_acc = 0.8864  P = 0.6952  R = 0.8935  F1 = 0.7820  用时 5.7 秒
+epoch 187/300  train_loss = 0.2348  val_loss = 0.2612  val_acc = 0.8868  P = 0.7055  R = 0.8638  F1 = 0.7766  用时 5.7 秒
+epoch 188/300  train_loss = 0.2332  val_loss = 0.2541  val_acc = 0.8893  P = 0.7141  R = 0.8575  F1 = 0.7793  用时 5.7 秒
+epoch 189/300  train_loss = 0.2356  val_loss = 0.2484  val_acc = 0.8887  P = 0.6959  R = 0.9091  F1 = 0.7883  用时 5.7 秒
+epoch 190/300  train_loss = 0.2305  val_loss = 0.2492  val_acc = 0.8897  P = 0.7063  R = 0.8833  F1 = 0.7849  用时 5.7 秒
+epoch 191/300  train_loss = 0.2362  val_loss = 0.2592  val_acc = 0.8896  P = 0.7187  R = 0.8473  F1 = 0.7777  用时 5.7 秒
+epoch 192/300  train_loss = 0.2330  val_loss = 0.2344  val_acc = 0.8941  P = 0.7131  R = 0.8957  F1 = 0.7940  用时 5.7 秒
+epoch 193/300  train_loss = 0.2320  val_loss = 0.2577  val_acc = 0.8858  P = 0.6964  R = 0.8849  F1 = 0.7794  用时 5.7 秒
+epoch 194/300  train_loss = 0.2322  val_loss = 0.2486  val_acc = 0.8902  P = 0.7070  R = 0.8851  F1 = 0.7861  用时 5.7 秒
+epoch 195/300  train_loss = 0.2338  val_loss = 0.2514  val_acc = 0.8920  P = 0.7270  R = 0.8427  F1 = 0.7806  用时 5.7 秒
+epoch 196/300  train_loss = 0.2341  val_loss = 0.2701  val_acc = 0.8821  P = 0.6887  R = 0.8812  F1 = 0.7731  用时 5.7 秒
+epoch 197/300  train_loss = 0.2373  val_loss = 0.2413  val_acc = 0.8934  P = 0.7273  R = 0.8513  F1 = 0.7844  用时 5.7 秒
+epoch 198/300  train_loss = 0.2357  val_loss = 0.2598  val_acc = 0.8876  P = 0.7069  R = 0.8660  F1 = 0.7784  用时 5.7 秒
+epoch 199/300  train_loss = 0.2349  val_loss = 0.2525  val_acc = 0.8850  P = 0.6897  R = 0.9009  F1 = 0.7813  用时 5.7 秒
+epoch 200/300  train_loss = 0.2322  val_loss = 0.2568  val_acc = 0.8839  P = 0.6865  R = 0.9029  F1 = 0.7800  用时 5.7 秒
+epoch 201/300  train_loss = 0.2366  val_loss = 0.2581  val_acc = 0.8927  P = 0.7339  R = 0.8302  F1 = 0.7791  用时 5.7 秒
+epoch 202/300  train_loss = 0.2317  val_loss = 0.2497  val_acc = 0.8896  P = 0.7020  R = 0.8962  F1 = 0.7873  用时 5.7 秒
+epoch 203/300  train_loss = 0.2366  val_loss = 0.2672  val_acc = 0.8841  P = 0.6975  R = 0.8675  F1 = 0.7733  用时 5.7 秒
+epoch 204/300  train_loss = 0.2328  val_loss = 0.2605  val_acc = 0.8871  P = 0.7005  R = 0.8817  F1 = 0.7807  用时 5.7 秒
+epoch 205/300  train_loss = 0.2355  val_loss = 0.2583  val_acc = 0.8854  P = 0.6858  R = 0.9174  F1 = 0.7849  用时 5.7 秒
+epoch 206/300  train_loss = 0.2393  val_loss = 0.2658  val_acc = 0.8840  P = 0.6884  R = 0.8973  F1 = 0.7791  用时 5.8 秒
+epoch 207/300  train_loss = 0.2329  val_loss = 0.2446  val_acc = 0.8920  P = 0.7189  R = 0.8640  F1 = 0.7848  用时 5.7 秒
+epoch 208/300  train_loss = 0.2324  val_loss = 0.2572  val_acc = 0.8862  P = 0.6910  R = 0.9059  F1 = 0.7840  用时 5.8 秒
+epoch 209/300  train_loss = 0.2294  val_loss = 0.2636  val_acc = 0.8880  P = 0.7098  R = 0.8602  F1 = 0.7778  用时 5.7 秒
+epoch 210/300  train_loss = 0.2317  val_loss = 0.2533  val_acc = 0.8895  P = 0.7071  R = 0.8796  F1 = 0.7840  用时 5.7 秒
+epoch 211/300  train_loss = 0.2352  val_loss = 0.2535  val_acc = 0.8869  P = 0.6949  R = 0.8978  F1 = 0.7835  用时 5.7 秒
+epoch 212/300  train_loss = 0.2364  val_loss = 0.2664  val_acc = 0.8878  P = 0.7173  R = 0.8377  F1 = 0.7729  用时 5.7 秒
+epoch 213/300  train_loss = 0.2321  val_loss = 0.2636  val_acc = 0.8903  P = 0.7197  R = 0.8495  F1 = 0.7792  用时 563.2 秒
+epoch 214/300  train_loss = 0.2368  val_loss = 0.2734  val_acc = 0.8768  P = 0.6622  R = 0.9381  F1 = 0.7763  用时 8.1 秒
+epoch 215/300  train_loss = 0.2426  val_loss = 0.2469  val_acc = 0.8926  P = 0.7220  R = 0.8595  F1 = 0.7848  用时 2994.1 秒
+epoch 216/300  train_loss = 0.2356  val_loss = 0.2777  val_acc = 0.8820  P = 0.6988  R = 0.8477  F1 = 0.7661  用时 2758.3 秒
+epoch 217/300  train_loss = 0.2327  val_loss = 0.2521  val_acc = 0.8841  P = 0.6820  R = 0.9213  F1 = 0.7838  用时 5.7 秒
+epoch 218/300  train_loss = 0.2336  val_loss = 0.2659  val_acc = 0.8882  P = 0.7128  R = 0.8532  F1 = 0.7767  用时 5.7 秒
+epoch 219/300  train_loss = 0.2294  val_loss = 0.2648  val_acc = 0.8882  P = 0.7085  R = 0.8657  F1 = 0.7793  用时 5.7 秒
+epoch 220/300  train_loss = 0.2313  val_loss = 0.2607  val_acc = 0.8856  P = 0.6957  R = 0.8856  F1 = 0.7792  用时 3024.7 秒
+epoch 221/300  train_loss = 0.2294  val_loss = 0.2793  val_acc = 0.8829  P = 0.7014  R = 0.8462  F1 = 0.7671  用时 5.7 秒
+epoch 222/300  train_loss = 0.2328  val_loss = 0.2576  val_acc = 0.8853  P = 0.6890  R = 0.9057  F1 = 0.7826  用时 5.7 秒
+epoch 223/300  train_loss = 0.2277  val_loss = 0.2415  val_acc = 0.8936  P = 0.7180  R = 0.8779  F1 = 0.7899  用时 5274.6 秒
+epoch 224/300  train_loss = 0.2288  val_loss = 0.2789  val_acc = 0.8853  P = 0.7058  R = 0.8516  F1 = 0.7719  用时 5.7 秒
+epoch 225/300  train_loss = 0.2320  val_loss = 0.2468  val_acc = 0.8901  P = 0.7019  R = 0.9002  F1 = 0.7888  用时 5273.5 秒
+epoch 226/300  train_loss = 0.2268  val_loss = 0.2507  val_acc = 0.8862  P = 0.6907  R = 0.9067  F1 = 0.7841  用时 636.9 秒
+epoch 227/300  train_loss = 0.2313  val_loss = 0.2623  val_acc = 0.8870  P = 0.7031  R = 0.8726  F1 = 0.7787  用时 5.7 秒
+epoch 228/300  train_loss = 0.2279  val_loss = 0.2570  val_acc = 0.8904  P = 0.7157  R = 0.8610  F1 = 0.7816  用时 2057.7 秒
+epoch 229/300  train_loss = 0.2308  val_loss = 0.2582  val_acc = 0.8873  P = 0.6996  R = 0.8857  F1 = 0.7817  用时 5.7 秒
+epoch 230/300  train_loss = 0.2285  val_loss = 0.2616  val_acc = 0.8824  P = 0.6799  R = 0.9146  F1 = 0.7800  用时 5.7 秒
+epoch 231/300  train_loss = 0.2319  val_loss = 0.2535  val_acc = 0.8892  P = 0.7072  R = 0.8766  F1 = 0.7828  用时 6.0 秒
+epoch 232/300  train_loss = 0.2269  val_loss = 0.2406  val_acc = 0.8934  P = 0.7097  R = 0.9004  F1 = 0.7938  用时 5.7 秒
+epoch 233/300  train_loss = 0.2272  val_loss = 0.2595  val_acc = 0.8854  P = 0.6905  R = 0.9008  F1 = 0.7818  用时 5.7 秒
+epoch 234/300  train_loss = 0.2298  val_loss = 0.2565  val_acc = 0.8919  P = 0.7261  R = 0.8442  F1 = 0.7807  用时 5.7 秒
+epoch 235/300  train_loss = 0.2295  val_loss = 0.2538  val_acc = 0.8915  P = 0.7127  R = 0.8781  F1 = 0.7868  用时 305.9 秒
+epoch 236/300  train_loss = 0.2282  val_loss = 0.2624  val_acc = 0.8808  P = 0.6710  R = 0.9361  F1 = 0.7817  用时 5.7 秒
+epoch 237/300  train_loss = 0.2258  val_loss = 0.2614  val_acc = 0.8856  P = 0.6991  R = 0.8743  F1 = 0.7769  用时 306.4 秒
+epoch 238/300  train_loss = 0.2294  val_loss = 0.2661  val_acc = 0.8867  P = 0.7042  R = 0.8675  F1 = 0.7773  用时 5.7 秒
+epoch 239/300  train_loss = 0.2289  val_loss = 0.2519  val_acc = 0.8887  P = 0.6927  R = 0.9197  F1 = 0.7902  用时 5.7 秒
+epoch 240/300  train_loss = 0.2304  val_loss = 0.2353  val_acc = 0.8967  P = 0.7226  R = 0.8874  F1 = 0.7966  用时 5.7 秒
+epoch 241/300  train_loss = 0.2258  val_loss = 0.2829  val_acc = 0.8830  P = 0.7038  R = 0.8408  F1 = 0.7662  用时 5.7 秒
+epoch 242/300  train_loss = 0.2263  val_loss = 0.2587  val_acc = 0.8864  P = 0.6948  R = 0.8944  F1 = 0.7821  用时 983.8 秒
+epoch 243/300  train_loss = 0.2231  val_loss = 0.2445  val_acc = 0.8935  P = 0.7115  R = 0.8963  F1 = 0.7933  用时 5.7 秒
+epoch 244/300  train_loss = 0.2267  val_loss = 0.2580  val_acc = 0.8879  P = 0.6979  R = 0.8962  F1 = 0.7847  用时 5.7 秒
+epoch 245/300  train_loss = 0.2247  val_loss = 0.2500  val_acc = 0.8908  P = 0.7073  R = 0.8884  F1 = 0.7876  用时 5.7 秒
+epoch 246/300  train_loss = 0.2285  val_loss = 0.2598  val_acc = 0.8880  P = 0.7014  R = 0.8858  F1 = 0.7829  用时 5.7 秒
+epoch 247/300  train_loss = 0.2290  val_loss = 0.2364  val_acc = 0.8948  P = 0.7191  R = 0.8837  F1 = 0.7930  用时 5.7 秒
+epoch 248/300  train_loss = 0.2266  val_loss = 0.2744  val_acc = 0.8775  P = 0.6666  R = 0.9251  F1 = 0.7749  用时 5.7 秒
+epoch 249/300  train_loss = 0.2261  val_loss = 0.2590  val_acc = 0.8862  P = 0.6998  R = 0.8773  F1 = 0.7786  用时 5.8 秒
+epoch 250/300  train_loss = 0.2289  val_loss = 0.2544  val_acc = 0.8916  P = 0.7207  R = 0.8565  F1 = 0.7828  用时 5.7 秒
+epoch 251/300  train_loss = 0.2251  val_loss = 0.2607  val_acc = 0.8862  P = 0.6912  R = 0.9051  F1 = 0.7838  用时 5.7 秒
+epoch 252/300  train_loss = 0.2248  val_loss = 0.2454  val_acc = 0.8899  P = 0.6959  R = 0.9185  F1 = 0.7918  用时 5.7 秒
+epoch 253/300  train_loss = 0.2204  val_loss = 0.2453  val_acc = 0.8933  P = 0.7181  R = 0.8757  F1 = 0.7891  用时 5.7 秒
+epoch 254/300  train_loss = 0.2231  val_loss = 0.2639  val_acc = 0.8884  P = 0.7043  R = 0.8800  F1 = 0.7824  用时 5.7 秒
+epoch 255/300  train_loss = 0.2226  val_loss = 0.2553  val_acc = 0.8866  P = 0.6907  R = 0.9102  F1 = 0.7854  用时 5.7 秒
+epoch 256/300  train_loss = 0.2278  val_loss = 0.2563  val_acc = 0.8857  P = 0.6902  R = 0.9046  F1 = 0.7830  用时 5.7 秒
+epoch 257/300  train_loss = 0.2287  val_loss = 0.2585  val_acc = 0.8851  P = 0.6858  R = 0.9156  F1 = 0.7842  用时 5.7 秒
+epoch 258/300  train_loss = 0.2261  val_loss = 0.2376  val_acc = 0.8972  P = 0.7360  R = 0.8557  F1 = 0.7914  用时 6.1 秒
+epoch 259/300  train_loss = 0.2276  val_loss = 0.2776  val_acc = 0.8813  P = 0.6841  R = 0.8903  F1 = 0.7737  用时 6.2 秒
+epoch 260/300  train_loss = 0.2286  val_loss = 0.2535  val_acc = 0.8850  P = 0.6836  R = 0.9228  F1 = 0.7854  用时 6.5 秒
+epoch 261/300  train_loss = 0.2253  val_loss = 0.2475  val_acc = 0.8935  P = 0.7189  R = 0.8747  F1 = 0.7892  用时 6.8 秒
+epoch 262/300  train_loss = 0.2279  val_loss = 0.2563  val_acc = 0.8871  P = 0.6931  R = 0.9054  F1 = 0.7852  用时 7.3 秒
+epoch 263/300  train_loss = 0.2247  val_loss = 0.2424  val_acc = 0.8930  P = 0.7081  R = 0.9025  F1 = 0.7936  用时 6.8 秒
+epoch 264/300  train_loss = 0.2254  val_loss = 0.2452  val_acc = 0.8944  P = 0.7247  R = 0.8657  F1 = 0.7890  用时 9.4 秒
+epoch 265/300  train_loss = 0.2254  val_loss = 0.2609  val_acc = 0.8831  P = 0.6825  R = 0.9111  F1 = 0.7804  用时 14.2 秒
+epoch 266/300  train_loss = 0.2245  val_loss = 0.2524  val_acc = 0.8916  P = 0.7129  R = 0.8777  F1 = 0.7868  用时 27.7 秒
+epoch 267/300  train_loss = 0.2297  val_loss = 0.2558  val_acc = 0.8873  P = 0.6910  R = 0.9150  F1 = 0.7873  用时 27.5 秒
+epoch 268/300  train_loss = 0.2236  val_loss = 0.2425  val_acc = 0.8943  P = 0.7197  R = 0.8784  F1 = 0.7912  用时 22.5 秒
+epoch 269/300  train_loss = 0.2248  val_loss = 0.2532  val_acc = 0.8921  P = 0.7145  R = 0.8767  F1 = 0.7874  用时 9.5 秒
+epoch 270/300  train_loss = 0.2236  val_loss = 0.2531  val_acc = 0.8883  P = 0.6912  R = 0.9219  F1 = 0.7900  用时 9.5 秒
+epoch 271/300  train_loss = 0.2231  val_loss = 0.2433  val_acc = 0.8967  P = 0.7277  R = 0.8737  F1 = 0.7941  用时 9.7 秒
+epoch 272/300  train_loss = 0.2279  val_loss = 0.2342  val_acc = 0.8960  P = 0.7140  R = 0.9067  F1 = 0.7989  用时 10.1 秒
+  ✓ 保存了 F1 最好的模型
+epoch 273/300  train_loss = 0.2275  val_loss = 0.2810  val_acc = 0.8725  P = 0.6523  R = 0.9432  F1 = 0.7713  用时 10.0 秒
+epoch 274/300  train_loss = 0.2310  val_loss = 0.2594  val_acc = 0.8877  P = 0.7049  R = 0.8726  F1 = 0.7798  用时 9.9 秒
+epoch 275/300  train_loss = 0.2281  val_loss = 0.2293  val_acc = 0.8984  P = 0.7289  R = 0.8821  F1 = 0.7982  用时 10.0 秒
+  ✓ 保存了新的最佳模型
+epoch 276/300  train_loss = 0.2295  val_loss = 0.2591  val_acc = 0.8849  P = 0.6874  R = 0.9073  F1 = 0.7822  用时 9.6 秒
+epoch 277/300  train_loss = 0.2255  val_loss = 0.2609  val_acc = 0.8823  P = 0.6773  R = 0.9234  F1 = 0.7814  用时 9.2 秒
+epoch 278/300  train_loss = 0.2300  val_loss = 0.2354  val_acc = 0.8931  P = 0.7135  R = 0.8874  F1 = 0.7910  用时 9.3 秒
+epoch 279/300  train_loss = 0.2358  val_loss = 0.2861  val_acc = 0.8684  P = 0.6436  R = 0.9477  F1 = 0.7666  用时 9.3 秒
+epoch 280/300  train_loss = 0.2315  val_loss = 0.2476  val_acc = 0.8897  P = 0.7019  R = 0.8973  F1 = 0.7877  用时 9.4 秒
+epoch 281/300  train_loss = 0.2369  val_loss = 0.2302  val_acc = 0.8965  P = 0.7179  R = 0.8994  F1 = 0.7985  用时 9.4 秒
+epoch 282/300  train_loss = 0.2300  val_loss = 0.2687  val_acc = 0.8796  P = 0.6709  R = 0.9260  F1 = 0.7781  用时 9.5 秒
+epoch 283/300  train_loss = 0.2319  val_loss = 0.2505  val_acc = 0.8881  P = 0.7010  R = 0.8874  F1 = 0.7833  用时 9.3 秒
+epoch 284/300  train_loss = 0.2259  val_loss = 0.2375  val_acc = 0.8937  P = 0.7142  R = 0.8898  F1 = 0.7924  用时 9.4 秒
+epoch 285/300  train_loss = 0.2252  val_loss = 0.2735  val_acc = 0.8761  P = 0.6613  R = 0.9359  F1 = 0.7750  用时 9.5 秒
+epoch 286/300  train_loss = 0.2284  val_loss = 0.2549  val_acc = 0.8871  P = 0.6953  R = 0.8982  F1 = 0.7839  用时 9.5 秒
+epoch 287/300  train_loss = 0.2243  val_loss = 0.2357  val_acc = 0.8944  P = 0.7099  R = 0.9076  F1 = 0.7966  用时 9.5 秒
+epoch 288/300  train_loss = 0.2242  val_loss = 0.2581  val_acc = 0.8839  P = 0.6805  R = 0.9252  F1 = 0.7842  用时 9.6 秒
+epoch 289/300  train_loss = 0.2271  val_loss = 0.2462  val_acc = 0.8950  P = 0.7246  R = 0.8699  F1 = 0.7906  用时 9.6 秒
+epoch 290/300  train_loss = 0.2239  val_loss = 0.2496  val_acc = 0.8873  P = 0.6882  R = 0.9239  F1 = 0.7888  用时 9.5 秒
+epoch 291/300  train_loss = 0.2249  val_loss = 0.2540  val_acc = 0.8893  P = 0.7071  R = 0.8777  F1 = 0.7833  用时 15.5 秒
+epoch 292/300  train_loss = 0.2251  val_loss = 0.2714  val_acc = 0.8832  P = 0.6903  R = 0.8844  F1 = 0.7754  用时 27.8 秒
+epoch 293/300  train_loss = 0.2283  val_loss = 0.2510  val_acc = 0.8855  P = 0.6824  R = 0.9312  F1 = 0.7876  用时 12.2 秒
+epoch 294/300  train_loss = 0.2229  val_loss = 0.2424  val_acc = 0.8939  P = 0.7153  R = 0.8876  F1 = 0.7922  用时 5.7 秒
+epoch 295/300  train_loss = 0.2221  val_loss = 0.2702  val_acc = 0.8801  P = 0.6769  R = 0.9070  F1 = 0.7752  用时 8.8 秒
+epoch 296/300  train_loss = 0.2246  val_loss = 0.2528  val_acc = 0.8889  P = 0.7101  R = 0.8665  F1 = 0.7805  用时 9.7 秒
+epoch 297/300  train_loss = 0.2222  val_loss = 0.2448  val_acc = 0.8910  P = 0.6996  R = 0.9141  F1 = 0.7926  用时 19.1 秒
+epoch 298/300  train_loss = 0.2229  val_loss = 0.2508  val_acc = 0.8912  P = 0.7052  R = 0.8982  F1 = 0.7901  用时 27.8 秒
+epoch 299/300  train_loss = 0.2166  val_loss = 0.2502  val_acc = 0.8892  P = 0.6976  R = 0.9068  F1 = 0.7886  用时 24.0 秒
+epoch 300/300  train_loss = 0.2199  val_loss = 0.2503  val_acc = 0.8891  P = 0.6964  R = 0.9103  F1 = 0.7891  用时 10.3 秒
